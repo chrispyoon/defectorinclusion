@@ -75,30 +75,6 @@
           });
         });
       });
-      // Function to handle the fade-out effect for sections
-      function handleFadeOut(sectionId) {
-        const section = document.getElementById(sectionId);
-        const sectionHeight = section.clientHeight;
-        const fadeOutPoint = section.offsetTop + (sectionHeight * 1.0); // Set to 100% of the section height
-        window.addEventListener('scroll', function() {
-          const scrollPosition = window.scrollY + window.innerHeight;
-          // Start fading out only when completely scrolled past the section's height
-          if (scrollPosition > fadeOutPoint) {
-            section.style.opacity = '0';
-            section.style.transition = 'opacity 0.5s ease-out';
-          } else {
-            section.style.opacity = '1';
-          }
-        });
-      }
-      // Apply fade-out effect to each section
-      handleFadeOut('hero');
-      handleFadeOut('introduction');
-      handleFadeOut('methodology');
-      handleFadeOut('results');
-      handleFadeOut('second-results');
-      handleFadeOut('discussion');
-      handleFadeOut('limits');
     });
   </script>
 </body>
