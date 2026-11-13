@@ -186,7 +186,7 @@ section#discussion {
   padding: 60px 15px;
 }
 section#limits {
-  background: url('/defectorinclusion/assets/images/limits.gif') no-repeat center center;
+  background: url('/defectorinclusion/assets/images/stringmove.gif') no-repeat center center;
   background-size: cover; /* Ensures image covers the entire section */
   background-position: center center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents image repetition */
@@ -198,7 +198,7 @@ section#limits {
   padding: 60px 15px;
 }
 section#acknowledgements {
-  background: url('/defectorinclusion/assets/images/StringMachine_DSC_4568-Edit.gif') no-repeat center center;
+  background: url('/defectorinclusion/assets/images/limits.gif') no-repeat center center;
   background-size: cover; /* Ensures image covers the entire section */
   background-position: center center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents image repetition */
